@@ -9,7 +9,7 @@
     "projects": "50",
     "satisfaction": "100%",
     "years": "2+",
-    "photo": "assets/images/profile.jpg",
+    "photo": "assets/images/profile.webp",
     "fiverr": "https://fiverr.com/noumanshah",
     "github": "https://github.com/noumanshah",
     "whatsapp": "https://wa.me/923258161578"
@@ -20,7 +20,7 @@
       "title": "La Bella Cucina",
       "description": "Restaurant website with menu, reservations, mobile ordering",
       "icon": "🍽️",
-      "image": "assets/images/project-1.jpg",
+      "image": "assets/images/project-1.png",
       "tags": ["React", "Node.js", "MySQL"],
       "liveDemo": "https://bellacucina.example.com",
       "github": "https://github.com/noumanshah/bella-cucina",
