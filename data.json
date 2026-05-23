@@ -9,7 +9,7 @@
     "projects": "50",
     "satisfaction": "100%",
     "years": "2+",
-    "photo": "https://avatars.githubusercontent.com/NoumanShah26452?size=600",
+    "photo": "assets/images/profile.jpg",
     "fiverr": "https://fiverr.com/noumanshah",
     "github": "https://github.com/noumanshah",
     "whatsapp": "https://wa.me/923258161578"
@@ -20,11 +20,8 @@
       "title": "La Bella Cucina",
       "description": "Restaurant website with menu, reservations, mobile ordering",
       "icon": "🍽️",
-      "tags": [
-        "React",
-        "Node.js",
-        "MySQL"
-      ],
+      "image": "assets/images/project-1.jpg",
+      "tags": ["React", "Node.js", "MySQL"],
       "liveDemo": "https://bellacucina.example.com",
       "github": "https://github.com/noumanshah/bella-cucina",
       "imageClass": "t1"
@@ -34,11 +31,8 @@
       "title": "ShopEase",
       "description": "E-commerce platform with cart, payments, admin dashboard",
       "icon": "🛒",
-      "tags": [
-        "Next.js",
-        "Stripe",
-        "MongoDB"
-      ],
+      "image": "assets/images/project-2.jpg",
+      "tags": ["Next.js", "Stripe", "MongoDB"],
       "liveDemo": "https://shopease.example.com",
       "github": "https://github.com/noumanshah/shopease",
       "imageClass": "t2"
@@ -48,11 +42,8 @@
       "title": "GreenBuild Agency",
       "description": "High-converting landing page with 60% lead increase",
       "icon": "🏗️",
-      "tags": [
-        "HTML/CSS",
-        "GSAP",
-        "JavaScript"
-      ],
+      "image": "assets/images/project-3.jpg",
+      "tags": ["HTML/CSS", "GSAP", "JavaScript"],
       "liveDemo": "https://greenbuild.example.com",
       "github": "https://github.com/noumanshah/greenbuild",
       "imageClass": "t3"
@@ -62,11 +53,8 @@
       "title": "QuickByte",
       "description": "Food delivery web app with real-time tracking",
       "icon": "🚀",
-      "tags": [
-        "React",
-        "Socket.io",
-        "Laravel"
-      ],
+      "image": "assets/images/project-4.jpg",
+      "tags": ["React", "Socket.io", "Laravel"],
       "liveDemo": "https://quickbyte.example.com",
       "github": "https://github.com/noumanshah/quickbyte",
       "imageClass": "t4"
@@ -76,11 +64,8 @@
       "title": "Creative Portfolio",
       "description": "UI/UX designer portfolio with 3D animations",
       "icon": "✨",
-      "tags": [
-        "React",
-        "Three.js",
-        "Framer"
-      ],
+      "image": "assets/images/project-5.jpg",
+      "tags": ["React", "Three.js", "Framer"],
       "liveDemo": "https://creative-portfolio.example.com",
       "github": "https://github.com/noumanshah/creative-portfolio",
       "imageClass": "t5"
@@ -90,76 +75,23 @@
       "title": "EstateHub",
       "description": "Real estate platform with map, filters, mortgage calculator",
       "icon": "🏠",
-      "tags": [
-        "WordPress",
-        "PHP",
-        "Google Maps"
-      ],
+      "image": "assets/images/project-6.jpg",
+      "tags": ["WordPress", "PHP", "Google Maps"],
       "liveDemo": "https://estatehub.example.com",
       "github": "https://github.com/noumanshah/estatehub",
       "imageClass": "t6"
     }
   ],
   "skills": [
-    {
-      "id": 1,
-      "name": "React.js",
-      "icon": "⚛️",
-      "percentage": 90
-    },
-    {
-      "id": 2,
-      "name": "JavaScript",
-      "icon": "🟨",
-      "percentage": 88
-    },
-    {
-      "id": 3,
-      "name": "HTML/CSS",
-      "icon": "🎨",
-      "percentage": 95
-    },
-    {
-      "id": 4,
-      "name": "TypeScript",
-      "icon": "📘",
-      "percentage": 78
-    },
-    {
-      "id": 5,
-      "name": "Node.js",
-      "icon": "🟢",
-      "percentage": 82
-    },
-    {
-      "id": 6,
-      "name": "PHP/Laravel",
-      "icon": "🔴",
-      "percentage": 80
-    },
-    {
-      "id": 7,
-      "name": "WordPress",
-      "icon": "🔵",
-      "percentage": 92
-    },
-    {
-      "id": 8,
-      "name": "Shopify",
-      "icon": "🟣",
-      "percentage": 75
-    },
-    {
-      "id": 9,
-      "name": "MySQL",
-      "icon": "🗄️",
-      "percentage": 77
-    },
-    {
-      "id": 10,
-      "name": "Figma",
-      "icon": "🎯",
-      "percentage": 70
-    }
+    {"id": 1, "name": "React.js",     "icon": "⚛️", "percentage": 90},
+    {"id": 2, "name": "JavaScript",   "icon": "🟨", "percentage": 88},
+    {"id": 3, "name": "HTML/CSS",     "icon": "🎨", "percentage": 95},
+    {"id": 4, "name": "TypeScript",   "icon": "📘", "percentage": 78},
+    {"id": 5, "name": "Node.js",      "icon": "🟢", "percentage": 82},
+    {"id": 6, "name": "PHP/Laravel",  "icon": "🔴", "percentage": 80},
+    {"id": 7, "name": "WordPress",    "icon": "🔵", "percentage": 92},
+    {"id": 8, "name": "Shopify",      "icon": "🟣", "percentage": 75},
+    {"id": 9, "name": "MySQL",        "icon": "🗄️", "percentage": 77},
+    {"id": 10,"name": "Figma",        "icon": "🎯", "percentage": 70}
   ]
 }
