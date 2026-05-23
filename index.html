@@ -318,10 +318,20 @@ nav{
   height:170px;position:relative;overflow:hidden;
   display:flex;align-items:center;justify-content:center;
   font-family:'Syne',sans-serif;font-size:20px;font-weight:700;
+  background-size:cover;background-position:center;background-repeat:no-repeat;
 }
+/* Overlay — lighter when no real image, darker when photo is set */
 .proj-thumb::after{
   content:'';position:absolute;inset:0;
   background:repeating-linear-gradient(45deg,transparent,transparent 30px,rgba(255,255,255,0.015) 30px,rgba(255,255,255,0.015) 60px);
+}
+.proj-thumb.has-img::after{
+  background:linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.1) 60%, transparent 100%);
+}
+.proj-thumb.has-img .proj-thumb-label{
+  position:absolute;bottom:10px;left:14px;z-index:2;
+  color:rgba(255,255,255,0.9);font-size:12px;
+  text-shadow:0 1px 4px rgba(0,0,0,0.7);
 }
 .t1{background:linear-gradient(135deg,#0f0a2e,#2d1b69)}
 .t2{background:linear-gradient(135deg,#0a1628,#0d3064)}
@@ -965,9 +975,14 @@ async function loadPortfolioData(){
     if(projects && projects.length){
       const grid = document.querySelector('.projects-grid');
       const classes = ['t1','t2','t3','t4','t5','t6'];
-      grid.innerHTML = projects.map((pr,i)=>`
+      grid.innerHTML = projects.map((pr,i)=>{
+        // image field se real photo, warna gradient class fallback
+        const hasImg = !!pr.image;
+        const thumbClass = hasImg ? 'has-img' : (pr.imageClass || classes[i%6]);
+        const thumbStyle = hasImg ? `style="background-image:url('${pr.image}')"` : '';
+        return `
         <div class="proj-card">
-          <div class="proj-thumb ${pr.imageClass||classes[i%6]}">
+          <div class="proj-thumb ${thumbClass}" ${thumbStyle}>
             <span class="proj-thumb-label">${pr.icon||'🌐'} ${pr.title}</span>
           </div>
           <div class="proj-body">
@@ -979,7 +994,8 @@ async function loadPortfolioData(){
               <a href="${pr.github||'#'}"   class="proj-link secondary" target="_blank" rel="noopener">GitHub</a>
             </div>
           </div>
-        </div>`).join('');
+        </div>`;
+      }).join('');
     }
 
     // Skills
