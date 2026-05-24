@@ -39,12 +39,12 @@
     },
     {
       "id": 3,
-      "title": "GreenBuild Agency",
-      "description": "High-converting landing page with 60% lead increase",
+      "title": "OMNIYAT",
+      "description": "Luxury real estate developer website featuring cinematic hero experience, masterpiece property showcases, Dorchester Collection branded residences, project portfolios, investor relations, and bespoke inquiry flow.",
       "icon": "🏗️",
       "image": "assets/images/project-3.png",
       "tags": ["HTML/CSS", "GSAP", "JavaScript"],
-      "liveDemo": "https://greenbuild.example.com",
+      "liveDemo": "https://www.omniyat.com/",
       "github": "https://github.com/noumanshah/greenbuild",
       "imageClass": "t3"
     },
