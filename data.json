@@ -50,12 +50,12 @@
     },
     {
       "id": 4,
-      "title": "QuickByte",
+      "title": "M21 Kitchen",
       "description": "Food delivery web app with real-time tracking",
       "icon": "🚀",
       "image": "assets/images/project-4.png",
       "tags": ["React", "Socket.io", "Laravel"],
-      "liveDemo": "https://quickbyte.example.com",
+      "liveDemo": "https://m21kitchen.com/",
       "github": "https://github.com/noumanshah/quickbyte",
       "imageClass": "t4"
     },
