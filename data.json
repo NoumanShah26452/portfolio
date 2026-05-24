@@ -17,13 +17,13 @@
   "projects": [
     {
       "id": 1,
-      "title": "La Bella Cucina",
-      "description": "Restaurant website with menu, reservations, mobile ordering",
+      "title": "Le Swan",
+      "description": "Restaurant website featuring illustrated storefront, brand story, partner & staff bios, hours, phone, and social links",
       "icon": "🍽️",
       "image": "assets/images/project-1.png",
       "tags": ["React", "Node.js", "MySQL"],
-      "liveDemo": "https://bellacucina.example.com",
-      "github": "https://github.com/noumanshah/bella-cucina",
+      "liveDemo": "https://https://leswan.ca/",
+      "github": "https://github.com/NoumanShah26452/Le-Swan",
       "imageClass": "t1"
     },
     {
