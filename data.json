@@ -61,12 +61,12 @@
     },
     {
       "id": 5,
-      "title": "Creative Portfolio",
-      "description": "UI/UX designer portfolio with 3D animations",
+      "title": "Code Crafted - Creative Portfolio",
+      "description": "Freelance web developer portfolio featuring dark-purple aesthetic, project showcases, skills overview, client testimonials, and admin dashboard for dynamic content management",
       "icon": "✨",
       "image": "assets/images/project-5.png",
       "tags": ["React", "Three.js", "Framer"],
-      "liveDemo": "https://creative-portfolio.example.com",
+      "liveDemo": "https://noumanshah26452.github.io/portfolio/",
       "github": "https://github.com/noumanshah/creative-portfolio",
       "imageClass": "t5"
     },
