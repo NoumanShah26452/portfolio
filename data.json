@@ -28,12 +28,12 @@
     },
     {
       "id": 2,
-      "title": "ShopEase",
-      "description": "E-commerce platform with cart, payments, admin dashboard",
+      "title": "PalKofia",
+      "description": "A heritage-driven Shopify clothing store. Culture meets commerce.",
       "icon": "🛒",
       "image": "assets/images/project-2.jpg",
-      "tags": ["Next.js", "Stripe", "MongoDB"],
-      "liveDemo": "https://shopease.example.com",
+      "tags": ["Shopify", "Liquid",],
+      "liveDemo": "https://palkofia.myshopify.com/",
       "github": "https://github.com/noumanshah/shopease",
       "imageClass": "t2"
     },
