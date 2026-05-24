@@ -72,12 +72,12 @@
     },
     {
       "id": 6,
-      "title": "EstateHub",
-      "description": "Real estate platform with map, filters, mortgage calculator",
-      "icon": "🏠",
+      "title": "Ma , Ono - Fried Chicken Restaurant",
+      "description": "Hawaiian-style fried chicken restaurant website featuring bold hero branding, full menu, multi-location finder, online ordering, events & catering, and gift card integration.",
+      "icon": "🍽️",
       "image": "assets/images/project-6.png",
       "tags": ["WordPress", "PHP", "Google Maps"],
-      "liveDemo": "https://estatehub.example.com",
+      "liveDemo": "https://www.maonoseattle.com/",
       "github": "https://github.com/noumanshah/estatehub",
       "imageClass": "t6"
     }
